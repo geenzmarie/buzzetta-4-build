@@ -11,10 +11,66 @@ body {
         grid-template-columns:1fr 1fr;
         background-color:#7db5d6;
     }
+    .card-row {
+        flex-direction:row;
+    }
 }
+
 @media screen and (min-width:800px) {
     body {
-        grid-template-columns:1fr 1fr 1fr;
+        grid-template-columns:1fr 1fr;
         background-color: #AAB6BD;
     }
+}
+header, nav, footer {
+  grid-column: 1/3;
+}
+header, footer {
+  color: #272932;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  background-color: #18314F;
+  color: white;
+  text-transform: capitalize;
+  padding: .5rem 2rem;
+}
+nav a:hover {
+  background-color: white;
+  color: #18314F;
+}
+.card-row {
+  display:flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: white;
+  padding: 1rem;
+}
+#section-one {
+  align-content: center;
+}
+.card-row-two {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 1 auto;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #18314F;
+}
+.card-row-two > section {
+    flex: 1 1 260px;
+    background-color: white;
+  padding: .5rem;
+}
+footer a {
+  color: #18314F;
+  text-decoration: none;
+}
+footer a:hover {
+  color: red;
 }
