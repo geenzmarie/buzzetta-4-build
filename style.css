@@ -22,6 +22,7 @@ body {
 header, nav, footer {
   grid-column:1/3;
 }
+
 header, footer {
   color: #272932;
   text-align:center;
@@ -78,6 +79,7 @@ nav a:hover {
 #two a {
   color: rgb(209, 161, 3);
 }
+
 #two a:hover {
   color: rgb(155, 69, 3);
 }
