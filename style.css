@@ -11,6 +11,8 @@ body {
         grid-template-columns:1fr 1fr;
         background-color:#628fa8;
     }
+
+/* I did not add another column at 800px because I did not like the way it separated the header,nav,footer, and could not figure out how to just target the main*/
 }
 @media screen and (min-width:800px) {
     body {
@@ -46,6 +48,8 @@ nav a:hover {
   background-color: white;
   color: #18314F;
 }
+
+/*Could not get the content to display the full length of the row*/
 
 .card-row {
   display: flex;
